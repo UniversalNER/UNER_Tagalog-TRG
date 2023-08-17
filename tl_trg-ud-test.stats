@@ -14,5 +14,32 @@
   "label_distribution": {
     "PER": 82,
     "LOC": 10
+  },
+  "pairwise_f1": {
+    "ref:jmri20, pred:ljmiranda": {
+      "num_common_annotated_docs": 5,
+      "LOC": {
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714285714285715
+      },
+      "PER": {
+        "precision": 0.21951219512195122,
+        "recall": 1.0,
+        "f1": 0.36
+      }
+    },
+    "average": {
+      "LOC": {
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714285714285715
+      },
+      "PER": {
+        "precision": 0.21951219512195122,
+        "recall": 1.0,
+        "f1": 0.36
+      }
+    }
   }
 }
