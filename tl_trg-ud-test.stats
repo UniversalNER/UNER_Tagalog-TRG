@@ -2,7 +2,7 @@
   "dataset_id": "tl_trg-ud-test",
   "num_documents": 5,
   "num_annotated_documents": 5,
-  "num_annotations": 174,
+  "num_annotations": 113,
   "num_annotators": 3,
   "annotator_ids": [
     "elyanah",
@@ -13,10 +13,36 @@
   "num_sentences": 128,
   "num_tokens": 734,
   "label_distribution": {
-    "PER": 82,
-    "LOC": 10
+    "PER": 24,
+    "LOC": 1
   },
   "pairwise_f1": {
+    "ref:elyanah, pred:jmri20": {
+      "num_common_annotated_docs": 5,
+      "LOC": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "PER": {
+        "precision": 0.8333333333333334,
+        "recall": 0.625,
+        "f1": 0.7142857142857143
+      }
+    },
+    "ref:elyanah, pred:ljmiranda": {
+      "num_common_annotated_docs": 5,
+      "LOC": {
+        "precision": 0.1,
+        "recall": 1.0,
+        "f1": 0.18181818181818182
+      },
+      "PER": {
+        "precision": 0.7142857142857143,
+        "recall": 0.625,
+        "f1": 0.6666666666666666
+      }
+    },
     "ref:jmri20, pred:ljmiranda": {
       "num_common_annotated_docs": 5,
       "LOC": {
@@ -25,21 +51,21 @@
         "f1": 0.5714285714285715
       },
       "PER": {
-        "precision": 0.21951219512195122,
+        "precision": 0.8571428571428571,
         "recall": 1.0,
-        "f1": 0.36
+        "f1": 0.923076923076923
       }
     },
     "average": {
       "LOC": {
-        "precision": 0.4,
+        "precision": 0.25,
         "recall": 1.0,
-        "f1": 0.5714285714285715
+        "f1": 0.3844155844155844
       },
       "PER": {
-        "precision": 0.21951219512195122,
-        "recall": 1.0,
-        "f1": 0.36
+        "precision": 0.8015873015873015,
+        "recall": 0.75,
+        "f1": 0.768009768009768
       }
     }
   }
