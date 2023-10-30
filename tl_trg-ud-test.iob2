@@ -80,7 +80,7 @@
 # text = Siya ang Amerikano.
 1	Siya	O	-	-
 2	ang	O	-	-
-3	Amerikano	O	-	-
+3	Amerikano	B-PER	-	ljmiranda
 4	.	O	-	-
 
 # sent_id = batch-0000-0012
@@ -93,7 +93,7 @@
 # sent_id = batch-0000-0013
 # text = Si Juan ang bunso.
 1	Si	O	-	-
-2	Juan	B-PER	-	elyanah
+2	Juan	B-PER	-	ljmiranda
 3	ang	O	-	-
 4	bunso	O	-	-
 5	.	O	-	-
@@ -297,7 +297,7 @@
 1	Hindi	O	-	-
 2	pa	O	-	-
 3	nagluluto	O	-	-
-4	ng	B-PER	-	elyanah
+4	ng	O	-	-
 5	pagkain	O	-	-
 6	ang	O	-	-
 7	nanay	O	-	-
@@ -307,7 +307,7 @@
 # text = Bumabasa ng diyaryo ang titser.
 1	Bumabasa	O	-	-
 2	ng	O	-	-
-3	diyaryo	B-PER	-	elyanah
+3	diyaryo	O	-	-
 4	ang	O	-	-
 5	titser	O	-	-
 6	.	O	-	-
@@ -316,10 +316,10 @@
 # text = Binabasa ng titser ang diyaryo.
 1	Binabasa	O	-	-
 2	ng	O	-	-
-3	titser	B-PER	-	elyanah
+3	titser	O	-	-
 4	ang	O	-	-
 5	diyaryo	O	-	-
-6	.	B-PER	-	elyanah
+6	.	O	-	-
 
 # sent_id = batch-0001-0009
 # text = Naghihilik ang lolo.
@@ -413,7 +413,7 @@
 1	Binalikan	O	-	-
 2	niya	O	-	-
 3	ang	O	-	-
-4	Maynila	O	-	-
+4	Maynila	B-LOC	-	ljmiranda
 5	.	O	-	-
 
 # sent_id = batch-0001-0020
@@ -441,14 +441,14 @@
 # text = Biyuda ang maestra.
 1	Biyuda	O	-	-
 2	ang	O	-	-
-3	maestra	B-PER	-	elyanah
+3	maestra	O	-	-
 4	.	O	-	-
 
 # sent_id = batch-0001-0024
 # text = Komika si Linda.
 1	Komika	O	-	-
 2	si	O	-	-
-3	Linda	O	-	-
+3	Linda	B-PER	-	ljmiranda
 4	.	O	-	-
 
 # sent_id = batch-0001-0025
@@ -462,7 +462,7 @@
 1	Kinain	O	-	-
 2	ang	O	-	-
 3	pagkain	O	-	-
-4	.	B-PER	-	elyanah
+4	.	O	-	-
 
 # sent_id = batch-0001-0027
 # text = Mga guro sila.
@@ -478,25 +478,25 @@
 3	babae	O	-	-
 4	ang	O	-	-
 5	bata	O	-	-
-6	.	B-PER	-	elyanah
+6	.	O	-	-
 
 # sent_id = batch-0001-0029
 # text = Malapit kay Maria si Juan.
 1	Malapit	O	-	-
 2	kay	O	-	-
-3	Maria	O	-	-
+3	Maria	B-PER	-	ljmiranda
 4	si	O	-	-
-5	Juan	O	-	-
+5	Juan	B-PER	-	ljmiranda
 6	.	O	-	-
 
 # sent_id = batch-0001-0030
 # text = Malapit sa Maynila ang Pasay City.
 1	Malapit	O	-	-
 2	sa	O	-	-
-3	Maynila	O	-	-
+3	Maynila	B-LOC	-	ljmiranda
 4	ang	O	-	-
-5	Pasay	O	-	-
-6	City	O	-	-
+5	Pasay	B-LOC	-	ljmiranda
+6	City	I-LOC	-	ljmiranda
 7	.	O	-	-
 
 # newdoc id = batch-0002
@@ -544,16 +544,16 @@
 1	Hindi	O	-	-
 2	nakita	O	-	-
 3	ni	O	-	-
-4	Pedro	B-PER	-	elyanah
+4	Pedro	B-PER	-	ljmiranda
 5	si	O	-	-
-6	Juan	B-PER	-	elyanah
+6	Juan	B-PER	-	ljmiranda
 7	.	O	-	-
 
 # sent_id = batch-0002-0007
 # text = Inahit ni John ang sarili niya.
 1	Inahit	O	-	-
 2	ni	O	-	-
-3	John	B-PER	-	elyanah
+3	John	B-PER	-	ljmiranda
 4	ang	O	-	-
 5	sarili	O	-	-
 6	niya	O	-	-
@@ -563,10 +563,10 @@
 # text = Inahit ni John mismo si Bill.
 1	Inahit	O	-	-
 2	ni	O	-	-
-3	John	B-PER	-	elyanah
+3	John	B-PER	-	ljmiranda
 4	mismo	O	-	-
 5	si	O	-	-
-6	Bill	B-PER	-	elyanah
+6	Bill	B-PER	-	ljmiranda
 7	.	O	-	-
 
 # sent_id = batch-0002-0009
@@ -659,11 +659,11 @@
 # text = Ipinansulat ni John ng liham kay Mary ang makinilya.
 1	Ipinansulat	O	-	-
 2	ni	O	-	-
-3	John	B-PER	-	elyanah
+3	John	B-PER	-	ljmiranda
 4	ng	O	-	-
 5	liham	O	-	-
 6	kay	O	-	-
-7	Mary	B-PER	-	elyanah
+7	Mary	B-PER	-	ljmiranda
 8	ang	O	-	-
 9	makinilya	O	-	-
 10	.	O	-	-
@@ -690,7 +690,7 @@
 1	Darating	O	-	-
 2	daw	O	-	-
 3	si	O	-	-
-4	Pedro	B-PER	-	elyanah
+4	Pedro	B-PER	-	ljmiranda
 5	bukas	O	-	-
 6	.	O	-	-
 
@@ -700,7 +700,7 @@
 2	daw	O	-	-
 3	darating	O	-	-
 4	si	O	-	-
-5	Pedro	B-PER	-	elyanah
+5	Pedro	B-PER	-	ljmiranda
 6	bukas	O	-	-
 7	.	O	-	-
 
@@ -711,7 +711,7 @@
 3	hindi	O	-	-
 4	darating	O	-	-
 5	si	O	-	-
-6	Pedro	B-PER	-	elyanah
+6	Pedro	B-PER	-	ljmiranda
 7	bukas	O	-	-
 8	?	O	-	-
 
@@ -952,7 +952,7 @@
 # text = Tumanggap ang Rosa ng sulat para sa bata sa kaniyang sarili.
 1	Tumanggap	O	-	-
 2	ang	O	-	-
-3	Rosa	B-PER	-	elyanah
+3	Rosa	B-PER	-	ljmiranda
 4	ng	O	-	-
 5	sulat	O	-	-
 6	para	O	-	-
@@ -1024,7 +1024,7 @@
 # text = Gusto ni Juan suriin siya ng doktor.
 1	Gusto	O	-	-
 2	ni	O	-	-
-3	Juan	B-PER	-	elyanah
+3	Juan	B-PER	-	ljmiranda
 4	suriin	O	-	-
 5	siya	O	-	-
 6	ng	O	-	-
@@ -1070,14 +1070,14 @@
 2	kong	O	-	-
 3	mamatay	O	-	-
 4	sa	O	-	-
-5	Maynila	B-LOC	-	elyanah
+5	Maynila	B-LOC	-	ljmiranda
 6	.	O	-	-
 
 # sent_id = batch-0004-0005
 # text = Binisita ni Juan ang hari nang nagiisa.
 1	Binisita	O	-	-
 2	ni	O	-	-
-3	Juan	B-PER	-	elyanah
+3	Juan	B-PER	-	ljmiranda
 4	ang	O	-	-
 5	hari	O	-	-
 6	nang	O	-	-
@@ -1088,7 +1088,7 @@
 # text = Bumisita si Juan sa hari nang nagiisa.
 1	Bumisita	O	-	-
 2	si	O	-	-
-3	Juan	B-PER	-	elyanah
+3	Juan	B-PER	-	ljmiranda
 4	sa	O	-	-
 5	hari	O	-	-
 6	nang	O	-	-

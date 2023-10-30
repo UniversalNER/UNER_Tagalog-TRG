@@ -2,7 +2,7 @@
   "dataset_id": "tl_trg-ud-test",
   "num_documents": 5,
   "num_annotated_documents": 5,
-  "num_annotations": 148,
+  "num_annotations": 118,
   "num_annotators": 5,
   "annotator_ids": [
     "elyanah",
@@ -15,60 +15,60 @@
   "num_sentences": 128,
   "num_tokens": 734,
   "label_distribution": {
-    "PER": 24,
-    "LOC": 1
+    "PER": 19,
+    "LOC": 4
   },
   "pairwise_f1": {
     "ref:elyanah, pred:jmri20": {
       "num_common_annotated_docs": 5,
       "LOC": {
-        "precision": 0.25,
-        "recall": 1.0,
-        "f1": 0.4
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
       },
       "PER": {
-        "precision": 0.8333333333333334,
-        "recall": 0.625,
-        "f1": 0.7142857142857143
+        "precision": 0.9444444444444444,
+        "recall": 1.0,
+        "f1": 0.9714285714285714
       }
     },
     "ref:elyanah, pred:jrcpadilla": {
       "num_common_annotated_docs": 2,
       "LOC": {
-        "precision": 0,
-        "recall": 0,
-        "f1": 0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
       },
       "PER": {
-        "precision": 0.25,
-        "recall": 0.1,
-        "f1": 0.14285714285714288
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
       }
     },
     "ref:elyanah, pred:ljmiranda": {
       "num_common_annotated_docs": 5,
       "LOC": {
-        "precision": 0.1,
-        "recall": 1.0,
-        "f1": 0.18181818181818182
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
       },
       "PER": {
-        "precision": 0.7142857142857143,
-        "recall": 0.625,
-        "f1": 0.6666666666666666
+        "precision": 0.8947368421052632,
+        "recall": 1.0,
+        "f1": 0.9444444444444444
       }
     },
     "ref:elyanah, pred:myron": {
       "num_common_annotated_docs": 5,
       "LOC": {
-        "precision": 0.25,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1": 0.4
+        "f1": 1.0
       },
       "PER": {
-        "precision": 0.8235294117647058,
-        "recall": 0.5833333333333334,
-        "f1": 0.6829268292682927
+        "precision": 0.9444444444444444,
+        "recall": 1.0,
+        "f1": 0.9714285714285714
       }
     },
     "ref:jmri20, pred:jrcpadilla": {
@@ -87,14 +87,14 @@
     "ref:jmri20, pred:ljmiranda": {
       "num_common_annotated_docs": 5,
       "LOC": {
-        "precision": 0.4,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1": 0.5714285714285715
+        "f1": 1.0
       },
       "PER": {
-        "precision": 0.8571428571428571,
+        "precision": 0.9473684210526315,
         "recall": 1.0,
-        "f1": 0.923076923076923
+        "f1": 0.972972972972973
       }
     },
     "ref:jmri20, pred:myron": {
@@ -106,21 +106,21 @@
       },
       "PER": {
         "precision": 1.0,
-        "recall": 0.9444444444444444,
-        "f1": 0.9714285714285714
+        "recall": 1.0,
+        "f1": 1.0
       }
     },
     "ref:jrcpadilla, pred:ljmiranda": {
       "num_common_annotated_docs": 2,
       "LOC": {
-        "precision": 0.5,
+        "precision": 0.6666666666666666,
         "recall": 0.6666666666666666,
-        "f1": 0.5714285714285715
+        "f1": 0.6666666666666666
       },
       "PER": {
-        "precision": 0.5714285714285714,
+        "precision": 0.8,
         "recall": 1.0,
-        "f1": 0.7272727272727273
+        "f1": 0.888888888888889
       }
     },
     "ref:jrcpadilla, pred:myron": {
@@ -140,25 +140,25 @@
       "num_common_annotated_docs": 5,
       "LOC": {
         "precision": 0.75,
-        "recall": 0.3,
-        "f1": 0.4285714285714285
+        "recall": 0.75,
+        "f1": 0.75
       },
       "PER": {
         "precision": 1.0,
-        "recall": 0.8095238095238095,
-        "f1": 0.8947368421052632
+        "recall": 0.9473684210526315,
+        "f1": 0.972972972972973
       }
     },
     "average": {
       "LOC": {
-        "precision": 0.4666666666666666,
-        "recall": 0.7383333333333333,
-        "f1": 0.49699134199134204
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334
       },
       "PER": {
-        "precision": 0.8049719887955181,
-        "recall": 0.7687301587301587,
-        "f1": 0.7723251416961301
+        "precision": 0.9280994152046784,
+        "recall": 0.9947368421052631,
+        "f1": 0.957927927927928
       }
     }
   }
