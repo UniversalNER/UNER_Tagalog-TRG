@@ -1,6 +1,6 @@
 # UNER_Tagalog-TRG
 
-The UNER dataset for the Tagalog TRG Treebank, originally released with UNER v1. UNER_Tagalog-TRG is part of [Universal NER](https://www.universalner.org/) and is based on the [UD_Tagalog-TRG](https://github.com/UniversalDependencies/UD_Tagalog-TRG) dataset.
+The UNER dataset for the Tagalog TRG Treebank, originally released with UNER v1. UNER_Tagalog-TRG is part of [Universal NER](https://www.universalner.org/) and is based on the [UD_Tagalog-TRG](https://github.com/UniversalDependencies/UD_Tagalog-TRG) dataset, which provides UD annotations for Tagalog grammar examples.
 
 The canonical reference commit to the Universal Dependencies dataset is [`b500241299f4f95484c0c74ca3977ad893275f24`](https://github.com/UniversalDependencies/UD_Tagalog-TRG/tree/b500241299f4f95484c0c74ca3977ad893275f24)
 
